@@ -18,13 +18,15 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="article">
+        <meta name="description" content="动手制作小游戏学了一点点cpp后，闲不住得我又做了一个小游戏https:&#x2F;&#x2F;icloud.qd.sdu.edu.cn:7777&#x2F;link&#x2F;507F5747F84D5ECABEDADE846202168F 有效期限：2023-11-30山大网盘问题（哭哭） 一下把源代码发一下（由于菜的一批，代码可能不好，勿喷）‘’’#include #include #include using namespace">
+<meta property="og:type" content="article">
 <meta property="og:title" content="苦逼大学生日常1">
 <meta property="og:url" content="http://example.com/2023/11/01/%E8%8B%A6%E9%80%BC%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%97%A5%E5%B8%B81/index.html">
 <meta property="og:site_name" content="jockRf的小家">
+<meta property="og:description" content="动手制作小游戏学了一点点cpp后，闲不住得我又做了一个小游戏https:&#x2F;&#x2F;icloud.qd.sdu.edu.cn:7777&#x2F;link&#x2F;507F5747F84D5ECABEDADE846202168F 有效期限：2023-11-30山大网盘问题（哭哭） 一下把源代码发一下（由于菜的一批，代码可能不好，勿喷）‘’’#include #include #include using namespace">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-11-01T02:13:37.000Z">
-<meta property="article:modified_time" content="2023-11-01T02:31:55.765Z">
+<meta property="article:modified_time" content="2023-11-01T06:57:58.352Z">
 <meta property="article:author" content="jockRf">
 <meta name="twitter:card" content="summary">
     
@@ -238,8 +240,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-11-01 10:31:55</span>
-            <span class="mobile">2023-11-01 10:31:55</span>
+            <span class="desktop">2023-11-01 14:57:58</span>
+            <span class="mobile">2023-11-01 14:57:58</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -266,7 +268,171 @@
 
 
         <div class="article-content markdown-body">
+            <h2 id="动手制作小游戏"><a href="#动手制作小游戏" class="headerlink" title="动手制作小游戏"></a>动手制作小游戏</h2><p>学了一点点cpp后，闲不住得我又做了一个小游戏<br><a class="link"   target="_blank" rel="noopener" href="https://icloud.qd.sdu.edu.cn:7777/link/507F5747F84D5ECABEDADE846202168F" >https://icloud.qd.sdu.edu.cn:7777/link/507F5747F84D5ECABEDADE846202168F <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>有效期限：2023-11-30<br>山大网盘问题（哭哭）</p>
+<p>一下把源代码发一下（由于菜的一批，代码可能不好，勿喷）<br>‘’’<br>#include <iostream><br>#include <cstdlib><br>#include <ctime><br>using namespace std;<br>int getInt() {<br>    int ii, len, t;<br>    int i;<br>    string s;<br>    bool flag;</p>
+<pre><code>do &#123;
+    cin &gt;&gt; s;
+    len = s.length();
+    flag = false;
+    t = 0;
+    for (ii = 0; ii &lt; len; ii++) &#123;
+        if (s[ii] &lt; &#39;0&#39; || s[ii] &gt; &#39;3&#39;)
+        &#123;
+            flag = true;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+            for (i = 0; i &lt; 60; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+            cout &lt;&lt; &quot;你个sb，不要和tmt一样乱输了&quot; &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+            for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+
+            break;
+        &#125;
+        t = t * 10 + (s[ii] - &#39;0&#39;);
+        
+    &#125;
+&#125; while (flag);
+
+
+return t;
+</code></pre>
+<p>}<br>int main()<br>{<br>    int a, c, e&#x3D;0, b&#x3D;0;<br>    int i;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “<em>“; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “”; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “ “; }<br>    for (i &#x3D; 0; i &lt; 60; i++) { cout &lt;&lt; “ “; }<br>    cout &lt;&lt; “游戏：《石头剪刀布》” &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 40; i++) { cout &lt;&lt; “ “; }<br>    cout &lt;&lt; “本篇作者：jockRf” &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “”; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “ “; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “</em>“; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “ “; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “ “; }cout &lt;&lt; endl;<br>    for (i &#x3D; 0; i &lt; 100; i++) { cout &lt;&lt; “ “; }cout &lt;&lt; endl;</p>
+<pre><code>while (true)
+&#123;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+    for (i = 0; i &lt; 60; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+    cout &lt;&lt; &quot;请输入你的进攻方式（1.剪刀 2.石头 3.布） &quot; &lt;&lt; endl &lt;&lt; &quot;想要结束请输入0&quot; &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+    
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+    for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+
+    c = getInt();
+    a = rand() % 3 + 1;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+        for (i = 0; i &lt; 60; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+        
+         if (c == 0)
+         &#123;
+            break;
+         &#125;
+         else if (c &lt; 0 || c&gt;3)
+         &#123;
+            cout &lt;&lt; &quot;你个sb，不要和tmt一样乱输了&quot; &lt;&lt; endl;	
+         &#125;
+         else if (a==1)
+        &#123;
+            cout &lt;&lt; &quot;对方出的是剪刀。&quot; &lt;&lt; endl;
+            if (c == 1)
+            &#123;
+                cout &lt;&lt; &quot;你出的是剪刀。&quot; &lt;&lt; endl &lt;&lt; &quot;这把平局。&quot; &lt;&lt; endl;
+            &#125;
+            else if (c == 2)
+            &#123;
+                cout &lt;&lt; &quot;你出的是石头。&quot; &lt;&lt; endl &lt;&lt; &quot;这把你赢了，加一分。&quot; &lt;&lt; endl;
+                b += 1;
+            &#125;
+            else if (c == 3)
+            &#123;
+                cout &lt;&lt; &quot;你出的是布。&quot; &lt;&lt; endl &lt;&lt; &quot;这把你输了，对方加一分。&quot; &lt;&lt; endl;
+                e += 1;
+            &#125;
+         &#125;
+        else if(a==2)
+        &#123;
+            cout &lt;&lt; &quot;对方出的是石头。&quot; ;
+            if (c == 1)
+            &#123;
+                cout &lt;&lt; &quot;你出的是剪刀。&quot; &lt;&lt; endl &lt;&lt; &quot;这把你输了，对方加一分。&quot; &lt;&lt; endl;
+                e += 1;
+            &#125;
+            else if (c == 2)
+            &#123;
+                cout &lt;&lt; &quot;你出的是石头。&quot; &lt;&lt; endl &lt;&lt; &quot;这把平局。&quot; &lt;&lt; endl;
+            &#125;
+            else if (c == 3)
+            &#123;
+                cout &lt;&lt; &quot;你出的是布。&quot; &lt;&lt; endl &lt;&lt; &quot;这把你赢了，加一分。&quot; &lt;&lt; endl;
+                b += 1;
+            &#125;
+        &#125;
+        else if (a == 3)
+        &#123;
+            cout &lt;&lt; &quot;对方出的是布。&quot; ;
+            if (c == 1)
+            &#123;
+                cout &lt;&lt; &quot;你出的是剪刀。&quot; &lt;&lt; endl &lt;&lt; &quot;这把你赢了，加一分。&quot; &lt;&lt; endl;
+                b += 1;
+            &#125;
+            else if (c == 2)
+            &#123;
+                cout &lt;&lt; &quot;你出的是石头。&quot; &lt;&lt; endl &lt;&lt; &quot;这把你输了，对方加一分。&quot; &lt;&lt; endl;
+                e += 1;
+            &#125;
+            else if (c == 3)
+            &#123;
+                cout &lt;&lt; &quot;你出的是布。&quot; &lt;&lt; endl &lt;&lt; &quot;这把平局。&quot; &lt;&lt; endl;
+            &#125;
             
+        &#125;
+        
+        cout &lt;&lt; &quot;请继续&quot; &lt;&lt; endl;
+        cout &lt;&lt; &quot;你的得分为：&quot; &lt;&lt; b &lt;&lt; &quot;分&quot; &lt;&lt; endl &lt;&lt; &quot;对方的得分为：&quot; &lt;&lt; e &lt;&lt; &quot;分&quot; &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+        for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+&#125;
+
+
+
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+for (i = 0; i &lt; 60; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+
+
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+if (b == e)
+&#123;
+cout &lt;&lt; &quot;游戏结束，这把游戏平局，你的运气很好&quot; &lt;&lt; endl;
+&#125;
+else if (b &lt; e)
+&#123;
+    cout &lt;&lt; &quot;游戏结束，这把游戏你输了，你个垃圾&quot; &lt;&lt; endl;
+&#125;
+else if (e &lt; b)
+&#123;
+    cout &lt;&lt; &quot;游戏结束，这把游戏你赢了，你真厉害&quot; &lt;&lt; endl;
+&#125;
+cout &lt;&lt; &quot;游戏：《石头剪刀布》&quot; &lt;&lt; endl;
+for (i = 0; i &lt; 40; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;
+cout &lt;&lt; &quot;本篇作者：邓梓轩&quot; &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;&quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot;*&quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+for (i = 0; i &lt; 100; i++) &#123; cout &lt;&lt; &quot; &quot;; &#125;cout &lt;&lt; endl;
+    
+return 0;
+</code></pre>
+<p>}<br>‘’’</p>
+
         </div>
 
         
@@ -280,7 +446,7 @@
         
             <li>
                 <strong>更新于
-                    :</strong> 2023-11-01 10:31:55
+                    :</strong> 2023-11-01 14:57:58
             </li>
         
         <li>
@@ -396,7 +562,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">苦逼大学生日常1</div>
-        
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A8%E6%89%8B%E5%88%B6%E4%BD%9C%E5%B0%8F%E6%B8%B8%E6%88%8F"><span class="nav-text">动手制作小游戏</span></a></li></ol>
 
     </div>
 </div>
