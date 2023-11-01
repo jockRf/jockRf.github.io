@@ -18,16 +18,16 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="痛苦的实验课每天的痛苦都要从cpp实验课开始 废话不多吐槽，开始码代码。 第一题解方程code    float a, b, c, d, e, f, g, h;    cout &lt;&lt; “解方程ax^2+bx+c&#x3D;0” &lt;&lt; endl &lt;&lt; “请输入a的值:”;    a&#x3D;getInt();    cout &lt;&lt; “请输入b的值:”">
+        <meta name="description" content="痛苦的实验课每天的痛苦都要从cpp实验课开始 废话不多吐槽，开始码代码。 第一题解方程1234567891011121314151617181920212223242526272829303132333435   float a, b, c, d, e, f, g, h;cout &lt;&lt; &quot;解方程ax^2+bx+c&#x3D;0&quot; &lt;&lt; endl &lt;&lt;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="cpp上课日常">
 <meta property="og:url" content="http://example.com/2023/11/01/cpps%E4%B8%8A%E8%AF%BE%E6%97%A5%E5%B8%B8/index.html">
 <meta property="og:site_name" content="jockRf的小家">
-<meta property="og:description" content="痛苦的实验课每天的痛苦都要从cpp实验课开始 废话不多吐槽，开始码代码。 第一题解方程code    float a, b, c, d, e, f, g, h;    cout &lt;&lt; “解方程ax^2+bx+c&#x3D;0” &lt;&lt; endl &lt;&lt; “请输入a的值:”;    a&#x3D;getInt();    cout &lt;&lt; “请输入b的值:”">
+<meta property="og:description" content="痛苦的实验课每天的痛苦都要从cpp实验课开始 废话不多吐槽，开始码代码。 第一题解方程1234567891011121314151617181920212223242526272829303132333435   float a, b, c, d, e, f, g, h;cout &lt;&lt; &quot;解方程ax^2+bx+c&#x3D;0&quot; &lt;&lt; endl &lt;&lt;">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i0.imgs.ovh/2023/11/01/AJPnl.png">
 <meta property="article:published_time" content="2023-11-01T05:51:12.000Z">
-<meta property="article:modified_time" content="2023-11-01T06:25:35.701Z">
+<meta property="article:modified_time" content="2023-11-01T06:33:15.844Z">
 <meta property="article:author" content="jockRf">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i0.imgs.ovh/2023/11/01/AJPnl.png">
@@ -242,8 +242,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-11-01 14:25:35</span>
-            <span class="mobile">2023-11-01 14:25:35</span>
+            <span class="desktop">2023-11-01 14:33:15</span>
+            <span class="mobile">2023-11-01 14:33:15</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -277,35 +277,16 @@
                       alt="今日cpp题目"
                 ></p>
 <p>废话不多吐槽，开始码代码。</p>
-<h2 id="第一题解方程"><a href="#第一题解方程" class="headerlink" title="第一题解方程"></a>第一题解方程</h2><p><code>code</code><br>    float a, b, c, d, e, f, g, h;<br>    cout &lt;&lt; “解方程ax^2+bx+c&#x3D;0” &lt;&lt; endl &lt;&lt; “请输入a的值:”;<br>    a&#x3D;getInt();<br>    cout &lt;&lt; “请输入b的值:”;<br>    b&#x3D;getInt();<br>    cout &lt;&lt; “请输入c的值：”;<br>    c &#x3D; getInt();<br>    if (a !&#x3D; 0)<br>    {<br>        if ((pow(b, 2) - 4 * a * c) &lt; 0)<br>        {<br>            cout &lt;&lt; “方程方程无解” &lt;&lt; endl;<br>        }<br>        else if((b*b - 4 * a * c) &#x3D;&#x3D;0)<br>        {<br>            e &#x3D; (-b) &#x2F; c;<br>            cout &lt;&lt; “x的值为” &lt;&lt; e &lt;&lt; endl;<br>        }<br>        else<br>        {<br>            f &#x3D; sqrt((pow(b,2) - 4 * a * c));<br>            g &#x3D; ((-2 * b) - f) &#x2F; (2 * a);<br>            h &#x3D; ((-2 * b) + f) &#x2F; (2 * a);<br>            cout &lt;&lt; “x的值为” &lt;&lt; g &lt;&lt; “或” &lt;&lt; h &lt;&lt; endl;<br>        }<br>    }<br>    else if(a&#x3D;&#x3D;0&amp;&amp;b!&#x3D;0)<br>    {<br>        d &#x3D; (-c) &#x2F; b;<br>        cout &lt;&lt; “x的值为” &lt;&lt; d &lt;&lt; endl;<br>    }<br>    else<br>    {<br>        cout &lt;&lt; “方程方程无解” &lt;&lt; endl;<br>    }</p>
-<p>关于定义的函数getInt()如下，他的目的是防止一些人不按规定输入<br><code>code</code><br>    int getInt() {<br>    int ii, len, t;<br>    string s;<br>    bool flag;</p>
-<pre><code>do &#123;
-    cin &gt;&gt; s;
-    len = s.length();
-    flag = false;
-    t = 0;
-    for (ii = 0; ii &lt; len; ii++) &#123;
-        if (s[ii] &lt; &#39;0&#39; || s[ii] &gt; &#39;9&#39;) &#123;
-            flag = true;
-            cout&lt;&lt;&quot;请重新输入&quot;&lt;&lt;endl;
-            break;
-        &#125;
-        t = t * 10 + (s[ii] - &#39;0&#39;);
-    &#125;
-&#125; while (flag);
+<h2 id="第一题解方程"><a href="#第一题解方程" class="headerlink" title="第一题解方程"></a>第一题解方程</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">   float a, b, c, d, e, f, g, h;</span><br><span class="line">cout &lt;&lt; &quot;解方程ax^2+bx+c=0&quot; &lt;&lt; endl &lt;&lt; &quot;请输入a的值:&quot;;</span><br><span class="line">a=getInt();</span><br><span class="line">cout &lt;&lt; &quot;请输入b的值:&quot;;</span><br><span class="line">b=getInt();</span><br><span class="line">cout &lt;&lt; &quot;请输入c的值：&quot;;</span><br><span class="line">c = getInt();</span><br><span class="line">if (a != 0)</span><br><span class="line">&#123;</span><br><span class="line">	if ((pow(b, 2) - 4 * a * c) &lt; 0)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;方程方程无解&quot; &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	else if((b*b - 4 * a * c) ==0)</span><br><span class="line">	&#123;</span><br><span class="line">		e = (-b) / c;</span><br><span class="line">		cout &lt;&lt; &quot;x的值为&quot; &lt;&lt; e &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	else</span><br><span class="line">	&#123;</span><br><span class="line">		f = sqrt((pow(b,2) - 4 * a * c));</span><br><span class="line">		g = ((-2 * b) - f) / (2 * a);</span><br><span class="line">		h = ((-2 * b) + f) / (2 * a);</span><br><span class="line">		cout &lt;&lt; &quot;x的值为&quot; &lt;&lt; g &lt;&lt; &quot;或&quot; &lt;&lt; h &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">else if(a==0&amp;&amp;b!=0)</span><br><span class="line">&#123;</span><br><span class="line">	d = (-c) / b;</span><br><span class="line">	cout &lt;&lt; &quot;x的值为&quot; &lt;&lt; d &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line">else</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; &quot;方程方程无解&quot; &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
-return t;
-&#125; 
-</code></pre>
-<h2 id="第二题完全数"><a href="#第二题完全数" class="headerlink" title="第二题完全数"></a>第二题完全数</h2><p>首先我们要知道完全数是什么？<br><em>完全数（Perfect number），又称完美数或完备数，是一些特殊的自然数。它所有的真因子（即除了自身以外的约数）的和（即因子函数），恰好等于它本身。</em><br>这是来自百度的定义。<br>那我们只需要建立一个等式，左边为一个数，右边为这个数所有因子的和，如果相等就输出。<br>那么问题来了，我们的如何找出一个数的所有因子呢？<br>其实我们可以用cpp中余的算法来找他的因子。<br><code>code</code><br>    int i, a, b, c, d;<br>    for (a &#x3D; 1; a &lt;&#x3D; 1000; a++)<br>    {<br>        b &#x3D; a;<br>        for (c &#x3D; 1; c &lt; a; c++)<br>        {<br>            d &#x3D; a % c;<br>            if (d &#x3D;&#x3D; 0)<br>            {<br>                b -&#x3D; c;<br>            }</p>
-<pre><code>    &#125;
-    if (b == 0)
-    &#123;
-        cout &lt;&lt;  a &lt;&lt; &quot;是完全数.&quot; &lt;&lt; endl;
-    &#125;
-&#125;
-</code></pre>
-<p>运算这个程序就可以。</p>
+<p>关于定义的函数getInt()如下，他的目的是防止一些人不按规定输入</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">   int getInt() &#123;</span><br><span class="line">int ii, len, t;</span><br><span class="line">string s;</span><br><span class="line">bool flag;</span><br><span class="line"></span><br><span class="line">do &#123;</span><br><span class="line">	cin &gt;&gt; s;</span><br><span class="line">	len = s.length();</span><br><span class="line">	flag = false;</span><br><span class="line">	t = 0;</span><br><span class="line">	for (ii = 0; ii &lt; len; ii++) &#123;</span><br><span class="line">		if (s[ii] &lt; &#x27;0&#x27; || s[ii] &gt; &#x27;9&#x27;) &#123;</span><br><span class="line">			flag = true;</span><br><span class="line">               cout&lt;&lt;&quot;请重新输入&quot;&lt;&lt;endl;</span><br><span class="line">			break;</span><br><span class="line">		&#125;</span><br><span class="line">		t = t * 10 + (s[ii] - &#x27;0&#x27;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125; while (flag);</span><br><span class="line"></span><br><span class="line">return t;</span><br><span class="line">   &#125; </span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="第二题完全数"><a href="#第二题完全数" class="headerlink" title="第二题完全数"></a>第二题完全数</h2><p>首先我们要知道完全数是什么？<br><em>完全数（Perfect number），又称完美数或完备数，是一些特殊的自然数。它所有的真因子（即除了自身以外的约数）的和（即因子函数），恰好等于它本身。</em><br>这是来自百度的定义。<br>那我们只需要建立一个等式，左边为一个数，右边为这个数所有因子的和，如果相等就输出。<br>那么问题来了，我们的如何找出一个数的所有因子呢？<br>其实我们可以用cpp中余的算法来找他的因子。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><figcaption><span>i, a, b, c, d;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">	for (a = 1; a &lt;= 1000; a++)</span><br><span class="line">	&#123;</span><br><span class="line">		b = a;</span><br><span class="line">		for (c = 1; c &lt; a; c++)</span><br><span class="line">		&#123;</span><br><span class="line">			d = a % c;</span><br><span class="line">			if (d == 0)</span><br><span class="line">			&#123;</span><br><span class="line">				b -= c;</span><br><span class="line">			&#125;</span><br><span class="line">			</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		if (b == 0)</span><br><span class="line">		&#123;</span><br><span class="line">			cout &lt;&lt;  a &lt;&lt; &quot;是完全数.&quot; &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">运算这个程序就可以。</span><br></pre></td></tr></table></figure></div>
+
 <h2 id="第三题"><a href="#第三题" class="headerlink" title="第三题"></a>第三题</h2>
         </div>
 
@@ -320,7 +301,7 @@ return t;
         
             <li>
                 <strong>更新于
-                    :</strong> 2023-11-01 14:25:35
+                    :</strong> 2023-11-01 14:33:15
             </li>
         
         <li>
